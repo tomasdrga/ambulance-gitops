@@ -1,0 +1,9 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: xdrga-ambulance-ufe
+spec:
+  frontendClass: md-shell 
+  service:
+    name: xdrga-ambulance-ufe
+  modulePath: build/ambulance-ufe.esm.js

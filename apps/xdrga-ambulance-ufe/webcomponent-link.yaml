@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xdrga-ambulance-ufe-link
+spec:
+  microFrontend: polyfea-md-shell 
+  element: polyfea-md-app
+  attributes:
+    - name: headline
+      value: Zoznam čakajúcich xdrga
+    - name: short-headline
+      value: Zoznam čakajúcich xdrga
+    - name: supporting-text
+      value: |
+        Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+    - name: material-icon
+      value: home_health
+    - name: href 
+  value: ./xdrga-ambulance-wl
+  priority: 10
+  displayRules:
+    - anyOf:
+      - context-name: applications
+      - context-name: rail-content
+      - context-name: drawer-content
