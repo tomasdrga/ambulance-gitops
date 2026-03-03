@@ -16,7 +16,7 @@ spec:
     - name: material-icon
       value: home_health
     - name: href 
-  value: ./xdrga-ambulance-wl
+      value: ./xdrga-ambulance-wl
   priority: 10
   displayRules:
     - anyOf:
