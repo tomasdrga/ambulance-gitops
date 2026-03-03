@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: xdrga-ambulance-ufe-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
         pod: xdrga-ambulance-ufe-label
