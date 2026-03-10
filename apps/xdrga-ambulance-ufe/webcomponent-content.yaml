@@ -6,8 +6,10 @@ spec:
   microFrontend: xdrga-ambulance-ufe
   element: xdrga-ambulance-wl-app
   attributes:
-    - name: base-path
-      value: ./xdrga-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5005/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
