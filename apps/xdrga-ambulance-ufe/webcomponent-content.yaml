@@ -4,7 +4,10 @@ metadata:
   name: xdrga-ambulance-ufe-content
 spec:
   microFrontend: xdrga-ambulance-ufe
-  element: xdrga-ambulance-wl-list
+  element: xdrga-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /xdrga-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
