@@ -7,7 +7,7 @@ spec:
   element: xdrga-ambulance-wl-app
   attributes:
     - name: base-path
-      value: /xdrga-ambulance-wl/
+      value: ./xdrga-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
