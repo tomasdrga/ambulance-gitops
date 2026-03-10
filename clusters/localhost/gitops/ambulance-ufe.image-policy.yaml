@@ -10,4 +10,4 @@ spec:
       pattern: "master.*" # vyberie všetky verzie, ktoré začínajú na master- (napr. master-20240315.1200)
   policy:
     alphabetical:
-      order: asc
+      order: desc
