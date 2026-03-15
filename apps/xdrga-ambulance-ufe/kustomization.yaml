@@ -8,6 +8,9 @@ resources:
 - webcomponent-content.yaml
 - microfrontend.yaml
 
+components:
+- ../../components/version-developers
+
 labels:
 - pairs:
     app.kubernetes.io/component: xdrga-ambulance-ufe

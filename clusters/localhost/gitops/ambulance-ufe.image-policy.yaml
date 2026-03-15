@@ -7,7 +7,8 @@ spec:
   imageRepositoryRef:
     name: ambulance-ufe # referuje ImageRepository z predchádzajúceho kroku
   filterTags:
-      pattern: "master.*" # vyberie všetky verzie, ktoré začínajú na master- (napr. master-20240315.1200)
+      pattern: '^master-(?P<timestamp>[0-9]{8}\.[0-9]{4})$'
+      extract: '$timestamp'
   policy:
-    alphabetical:
-      order: desc
+    numerical:
+      order: asc
