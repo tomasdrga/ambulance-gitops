@@ -3,6 +3,7 @@ kind: WebComponent
 metadata:
   name: mongo-express-ufe-content
 spec:
+  microFrontend: polyfea-md-shell
   element: iframe
   attributes:
     - name: src
