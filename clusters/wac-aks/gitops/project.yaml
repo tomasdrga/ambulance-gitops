@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xdrga-ambulance-wl
+spec:
+  title: Zoznam čakajúcich xdrga
+  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+  authors: "Tomáš Drga"
+  azureLink: "https://xdrga-ambulance-avczc9fhhpeabfg9.westeurope-01.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/tomasdrga/ambulance-ufe"
+  backendRepoUrl: "https://github.com/tomasdrga/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/tomasdrga/ambulance-gitops"

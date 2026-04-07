@@ -14,3 +14,4 @@ components:
 labels:
 - pairs:
     app.kubernetes.io/component: xdrga-ambulance-ufe
+    wac-fiit.github.io/component: frontend

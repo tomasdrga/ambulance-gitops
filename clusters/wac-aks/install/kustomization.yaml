@@ -7,11 +7,13 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: xdrga-ambulance-wl
+    wac-fiit.github.io/project: xdrga-ambulance-wl
   includeSelectors: true
   includeTemplates: true
 
 resources:
 - ../../../apps/xdrga-ambulance-ufe
+- ../../../apps/xdrga-ambulance-webapi
 
 
 components:

@@ -8,3 +8,8 @@ resources:
 
 patches:
   - path: patches/ambulance-webapi.deployment.yaml
+
+labels:
+  - pairs:
+      app.kubernetes.io/component: xdrga-ambulance-webapi
+      wac-fiit.github.io/component: backend
