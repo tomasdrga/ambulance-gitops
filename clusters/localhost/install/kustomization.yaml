@@ -9,6 +9,7 @@ labels:
 resources:
 - ../../../apps/xdrga-ambulance-ufe
 - ../../../apps/xdrga-ambulance-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
