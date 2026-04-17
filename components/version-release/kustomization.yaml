@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: tomdrg/ambulance-ufe
   newName: tomdrg/ambulance-ufe
-  newTag: 1.1.0
+  newTag: 1.1.1
 - name: tomdrg/ambulance-wl-webapi
   newName: tomdrg/ambulance-wl-webapi
   newTag: 1.1.0
